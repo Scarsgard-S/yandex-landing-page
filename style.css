@@ -1,0 +1,100 @@
+body {
+    font-size: 20px;
+    font-family: "Squirrel", sans-serif;
+    color: #2c4942;    
+}
+
+.header_box {
+    border: 1px solid gray;
+    overflow: hidden;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    font-weight: medium;
+}
+
+main {
+    width: 700px;
+    margin: auto;
+}
+
+.art_header {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.header_box h1 {
+    position: absolute;
+    top: 0px;
+    left: 45vw;
+    width: 500px;
+    font-size: 2.5em;
+    font-weight: 500;
+    
+}
+
+.header_tag {
+    position: absolute;
+    top: 36vh; 
+    font-size: 0.9em;
+}
+
+.header_tag.topic {
+    left: 45vw;
+    background-color: #2c4942;
+    color: white;
+    padding: 5px 15px;
+
+}
+
+.header_tag.date {
+    left: 73.5vw;
+    color: grey;
+
+}
+
+.header_article {
+    width: 70%;
+    font-size: 34px;
+    margin: 80px auto;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.bold_ul {
+    font-weight: bold;
+}
+
+li {
+    padding-bottom: 2em;
+    font-weight: normal;
+}
+
+.example_of_story {
+    background-color: #d2dcdc;
+    padding: 20px 20px 40px 20px;
+    border-radius: 3px;
+}
+
+q, cite {
+    color: #87a0af;
+}
+
+cite {
+    font-style: normal;
+}
+
+footer nav {
+    width: 700px;
+    margin: auto;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Задать правильные смысловые разделы section и article */
+/* Установить одинаковый размер шрифта */
